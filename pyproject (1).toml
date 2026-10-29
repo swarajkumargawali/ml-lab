@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mllab"
+version = "1.0.0"
+description = "Machine learning lab programs - type get(n) to load program n"
+requires-python = ">=3.8"
+dependencies = ["scikit-learn", "pandas", "numpy", "matplotlib", "seaborn", "xgboost", "openpyxl"]
+
+[tool.setuptools]
+py-modules = ["mllab"]
